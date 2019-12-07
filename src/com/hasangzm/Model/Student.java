@@ -3,6 +3,9 @@ package com.hasangzm.Model;
 import com.hasangzm.Abstract.IEntity;
 import com.hasangzm.Abstract.IPayload;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 public class Student implements IEntity<Student> {
 
     private int studentId;
@@ -11,6 +14,18 @@ public class Student implements IEntity<Student> {
     private String studentBirthDate;
     private float studentGPA;
     private String studentBranch;
+    private IPayload payload;
+
+
+    @Override
+    public String toString() {
+        return "ID: " + getStudentId() + " " +
+                " FirstName:" + getStudentFirstName() +
+                " LastName:" + getStudentLastName() +
+                " BirthDate" + getStudentBirthDate() +
+                " GPA" + getStudentGPA() +
+                " Branch" + getStudentBranch();
+    }
 
     public int getStudentId() {
         return studentId;
@@ -60,20 +75,24 @@ public class Student implements IEntity<Student> {
         this.studentBranch = studentBranch;
     }
 
+    public Student(ResultSet resultSet){
+        if(resultSet != null)
+            ReadEntity(resultSet);
+    }
     public Student(){
 
     }
 
     @Override
-    public void ReadEntity(IPayload payload) {
+    public void ReadEntity(ResultSet res) {
         try {
-            this.studentId = Integer.parseInt(payload.GetValues().get("studentId"));
-            this.studentFirstName = payload.GetValues().get("studentFirstName");
-            this.studentLastName = payload.GetValues().get("studentLastName");
-            this.studentBirthDate = payload.GetValues().get("studentBirthDate");
-            this.studentBranch = payload.GetValues().get("studentBranch");
-            this.studentGPA = Float.parseFloat(payload.GetValues().get("studentGPA"));
-        }catch(NullPointerException e){
+            setStudentId(res.getInt("student_id"));
+            setStudentFirstName(res.getString("first_name"));
+            setStudentLastName(res.getString("last_name"));
+            setStudentGPA(res.getFloat("gpa"));
+            setStudentBranch(res.getString("branch"));
+            setStudentBirthDate(res.getString("birth_date"));
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }

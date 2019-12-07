@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efecbf95-acf5-4b6a-9dd1-278105c026fe" name="Default Changelist" comment="" />
+    <list default="true" id="efecbf95-acf5-4b6a-9dd1-278105c026fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Abstract/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Abstract/IDBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Abstract/IFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Factory/ExamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Factory/StudentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hasangzm/Model/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Abstract/IEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Abstract/IEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/DB/DBManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentAutomation/com/hasangzm/Model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.db" beforeDir="false" afterPath="$PROJECT_DIR$/project.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hasangzm/Abstract/IEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hasangzm/Abstract/IEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hasangzm/DB/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hasangzm/DB/SQLiteDBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hasangzm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hasangzm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hasangzm/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hasangzm/Model/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,19 +51,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UYcV9gruT5HfUWA7r6Ku7FHNhA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hasangzm.Factory" />
+      <recent name="com.hasangzm.Controller" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -101,6 +138,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575536990168</updated>
       <workItem from="1575536994593" duration="4849000" />
+      <workItem from="1575622585839" duration="6863000" />
+      <workItem from="1575748377760" duration="2135000" />
     </task>
     <servers />
   </component>
@@ -112,65 +151,85 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1575541316996" />
+    <state x="320" y="115" key="#SQL_Dialects" timestamp="1575623370067">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#SQL_Dialects/0.0.1440.900@0.0.1440.900" timestamp="1575623370067" />
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575540944842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575540944842" />
-    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575542066351">
+    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575624706955">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575542066351" />
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1575539902421">
+    <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1575624706955" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1575630514522">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575539902421" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1575542217787">
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1575630514522" />
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1575624509234">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575542217787" />
+    <state x="432" y="140" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1440.900@0.0.1440.900" timestamp="1575624509234" />
+    <state x="436" y="175" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1575749246559">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="436" y="175" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1440.900@0.0.1440.900" timestamp="1575749246559" />
+    <state x="287" y="52" key="CommitChangelistDialog2" timestamp="1575749507797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="287" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1575749507797" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1575750527709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575750527709" />
     <state width="1358" height="241" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1575539161316" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1575542217786">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1575750527707">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575542217786" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575750527707" />
     <state width="1358" height="241" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1575539161314" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1575542217785">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1575750527706">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575542217785" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575750527706" />
     <state width="1358" height="241" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1575539161313" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1575542217786">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1575750527708">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575542217786" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575750527708" />
     <state width="1358" height="241" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1575539161315" />
-    <state width="1358" height="241" key="GridCell.Tab.1.bottom" timestamp="1575542217778">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1575630819192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1358" height="241" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575542217778" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575630819192" />
     <state width="1358" height="241" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1575539161318" />
-    <state width="1358" height="241" key="GridCell.Tab.1.center" timestamp="1575542217776">
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1575630819191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1358" height="241" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575542217776" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1575630819191" />
     <state width="1358" height="241" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1575539161317" />
-    <state width="1358" height="241" key="GridCell.Tab.1.left" timestamp="1575542217776">
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1575630819190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1358" height="241" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575542217776" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1575630819190" />
     <state width="1358" height="241" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1575539161316" />
-    <state width="1358" height="241" key="GridCell.Tab.1.right" timestamp="1575542217777">
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1575630819191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1358" height="241" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575542217777" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1575630819191" />
     <state width="1358" height="241" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1575539161317" />
     <state x="397" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1575537001945">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="397" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1575537001945" />
-    <state x="378" y="93" width="683" height="714" key="find.popup" timestamp="1575540604813">
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575749499455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="378" y="93" width="683" height="714" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1575540604813" />
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1575749499455" />
+    <state x="378" y="93" width="837" height="714" key="find.popup" timestamp="1575749540896">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="93" width="837" height="714" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1575749540896" />
   </component>
 </project>
