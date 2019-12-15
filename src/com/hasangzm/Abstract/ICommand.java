@@ -1,5 +1,5 @@
-package com.hasangzm.Command;
+package com.hasangzm.Abstract;
 
 public interface ICommand {
-    void Execute();
+    void Execute(ICommandCallback callback);
 }

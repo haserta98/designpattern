@@ -1,5 +1,5 @@
 package com.hasangzm.Abstract;
 
-public interface CommandCallback <T> {
-    T onSuccess();
+public interface ICommandCallback {
+    void onSuccess(IEntity entity);
 }

@@ -10,9 +10,25 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class StudentController implements IController<Student> {
-
     IDBManager db = SQLiteDBManager.Instance();
     StudentFactory studentFactory = new StudentFactory();
+
+    private static volatile StudentController _instance = null;
+
+    private StudentController(){}
+
+    public static StudentController Instance(){
+        if(_instance == null)
+        {
+            synchronized (StudentController.class){
+                if(_instance == null){
+                    _instance = new StudentController();
+                }
+            }
+        }
+        return _instance;
+    }
+
     @Override
     public void Insert(Student entity) {
         if(!db.ConnectDatabase())
@@ -42,5 +58,10 @@ public class StudentController implements IController<Student> {
             e.printStackTrace();
         }
         return (Student) studentFactory.ExecuteFactory("student",res);
+    }
+
+    @Override
+    public Student Get() {
+        return (Student) studentFactory.ExecuteFactory("emptyStudent",null);
     }
 }

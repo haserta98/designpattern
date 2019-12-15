@@ -66,7 +66,6 @@ public class SQLiteDBManager implements IDBManager {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 
     public ResultSet ExecuteSQL(String sql)
@@ -78,5 +77,4 @@ public class SQLiteDBManager implements IDBManager {
             return null;
         }
     }
-
 }

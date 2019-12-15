@@ -1,7 +1,6 @@
 package com.hasangzm.Model;
 
 import com.hasangzm.Abstract.IEntity;
-import com.hasangzm.Abstract.IPayload;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -45,11 +44,11 @@ public class Exam implements IEntity<Exam> {
 
     @Override
     public String toString() {
-        return " Exam ID:" + getExamId() + " "+
-                " Student ID:" + getStudentId() +
-                " Exam Score:" + getExamScore() +
-                " Lesson Name:" + getLessonName() +
-                " Exam Type:" + getExamType();
+        return "Exam ID: " + getExamId()+
+                "\n Student ID: " + getStudentId() +
+                "\n Exam Score: " + getExamScore() +
+                "\n Lesson Name: " + getLessonName() +
+                "\n Exam Type: " + getExamType();
     }
 
     public String getExamType()

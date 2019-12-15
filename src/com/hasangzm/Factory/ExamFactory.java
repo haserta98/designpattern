@@ -3,7 +3,6 @@ package com.hasangzm.Factory;
 import com.hasangzm.Abstract.IEntity;
 import com.hasangzm.Abstract.IFactory;
 import com.hasangzm.Model.Exam;
-import com.hasangzm.Model.Student;
 
 import java.sql.ResultSet;
 

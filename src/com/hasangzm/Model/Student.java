@@ -1,7 +1,6 @@
 package com.hasangzm.Model;
 
 import com.hasangzm.Abstract.IEntity;
-import com.hasangzm.Abstract.IPayload;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,17 +13,15 @@ public class Student implements IEntity<Student> {
     private String studentBirthDate;
     private float studentGPA;
     private String studentBranch;
-    private IPayload payload;
-
 
     @Override
     public String toString() {
         return "ID: " + getStudentId() + " " +
-                " FirstName:" + getStudentFirstName() +
-                " LastName:" + getStudentLastName() +
-                " BirthDate" + getStudentBirthDate() +
-                " GPA" + getStudentGPA() +
-                " Branch" + getStudentBranch();
+                " FirstName: " + getStudentFirstName() +
+                " LastName: " + getStudentLastName() +
+                " BirthDate " + getStudentBirthDate() +
+                " GPA " + getStudentGPA() +
+                " Branch " + getStudentBranch();
     }
 
     public int getStudentId() {
